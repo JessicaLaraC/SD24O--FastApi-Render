@@ -11,7 +11,7 @@ import os
 #                           "options": "-csearch_path=app"                           
 #                      })
 #
-engine = create_engine (os.getenv("db_uri", "sqlite:///base-ejemplo.db")) 
+engine = create_engine (os.getenv("db_uri", "sqlite:///usuario_ejemplo.db")) 
 modelos.BaseClass.metadata.create_all(engine)
 
 SessionClass = sessionmaker(engine)
