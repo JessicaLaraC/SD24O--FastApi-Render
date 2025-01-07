@@ -1,5 +1,5 @@
 #Tiene las clases que mapean las tablas de la BD a clases de Python.
-from orm.config import BaseClass
+
 from sqlalchemy import Column, String, Integer, DateTime, ForeignKey, Float
 from sqlalchemy.ext.declarative import declarative_base
 
