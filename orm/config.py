@@ -1,7 +1,6 @@
 #Configuración de conexión a la BD, asi como la funcion para crear conexiones 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
 #importar el modelo de archivos 
 from orm import modelos
 import os
